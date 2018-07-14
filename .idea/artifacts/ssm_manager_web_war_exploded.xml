@@ -1,0 +1,33 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ssm-manager-web:war exploded">
+    <output-path>$PROJECT_DIR$/ssm-manager/ssm-manager-web/target/ssm-manager-web-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ssm-manager-web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="ssm-manager-service-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="ssm-manager-service" />
+          </element>
+          <element id="archive" name="ssm-manager-dao-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="ssm-manager-dao" />
+          </element>
+          <element id="archive" name="ssm-manager-pojo-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="ssm-manager-pojo" />
+          </element>
+          <element id="archive" name="ssm-manager-interface-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="ssm-manager-interface" />
+          </element>
+          <element id="archive" name="ssm-common-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="ssm-common" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/ssm-manager/ssm-manager-web/target/ssm-manager-web-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="ssm-manager-web/web/Web" />
+    </root>
+  </artifact>
+</component>
